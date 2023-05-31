@@ -29,11 +29,16 @@
     margin-left: 10px;
     cursor: pointer;
 }
+
+/*.dropdown li a{
+    color: black;
+  }*/
+
 /* home section */
 .home{
     width: 100%;
-    height: 91.5vh;
-    background-color: #a9a9a929;
+    height: 77.5vh;
+    background-color: #26d4da29;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -46,6 +51,7 @@
 }
 .home .img img{
     width: 100%;
+    
 }
 .home .content{
     flex:1 1 400px;
@@ -213,7 +219,7 @@
 .banner{
     width: 100%;
     height: 65vh;
-    background-image: url("./images/b1.png");
+    background-image: url("./images/b1.p ng");
     background-size: cover;
     display: flex;
     align-items: center;
@@ -225,6 +231,7 @@
     border-radius: 5px;
     box-shadow: 0px 0px 3px black;
 }
+
 .banner .img{
     flex: 1 1 400px;
 }
@@ -349,6 +356,54 @@
     text-shadow: 1px 1px 1px black;
     font-family: 'Edu VIC WA NT Beginner', cursive;
     animation: bannercontent 10s infinite linear;
+}
+.hero{
+    width: 100%;
+    height: 65vh;
+    background-image: url("./images/heels-banner.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px black;
+}
+.hero .banner-content{
+    flex:1 1 400px;
+    margin-bottom: 30px;
+}
+.hero .banner-content .btn
+{
+    color: white;
+    background-color: rgb(108, 231, 190);
+}
+.hero2{
+    width: 100%;
+    height: 65vh;
+    background-image: url("./images/shoes-banners.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    margin-top: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px black;
+}
+.hero2 .banner-content{
+    flex:1 1 400px;
+    margin-bottom: 30px;
+}
+.hero2 .banner-content .btn
+{
+    color: white;
+    background-color: rgb(108, 231, 190);
 }
 @keyframes bannercontent{
     0%{content: "Smart Watch";}
